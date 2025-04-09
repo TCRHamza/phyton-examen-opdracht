@@ -1,0 +1,426 @@
+{
+    "responseCode": 200,
+    "message": "success",
+    "content": [
+        {
+            "id": "6200123739865863197",
+            "form_id": "250933582270356",
+            "ip": "95.99.106.89",
+            "created_at": "2025-04-09 08:52:54",
+            "status": "ACTIVE",
+            "new": "1",
+            "flag": "0",
+            "notes": "",
+            "updated_at": null,
+            "answers": {
+                "3": {
+                    "name": "fullName",
+                    "order": "1",
+                    "sublabels": "{\"prefix\":\"Prefix\",\"first\":\"Voornaam\",\"middle\":\"Middle Name\",\"last\":\"Achternaam\",\"suffix\":\"Suffix\"}",
+                    "text": "Gegevens",
+                    "type": "control_fullname",
+                    "answer": {
+                        "first": "pim",
+                        "last": "stan"
+                    },
+                    "prettyFormat": "pim stan"
+                },
+                "4": {
+                    "countryCode": "No",
+                    "inputMask": "enable",
+                    "inputMaskValue": "(##) #-##-##-##-##",
+                    "name": "telefoonnummer",
+                    "order": "2",
+                    "sublabels": "{\"country\":\"Country Code\",\"area\":\"Area Code\",\"phone\":\"Phone Number\",\"full\":\"Phone Number\",\"masked\":\"Voer een geldig telefoonnummer in.\"}",
+                    "text": "Telefoonnummer ",
+                    "type": "control_phone",
+                    "answer": {
+                        "full": "(31) 6-24-66-08-24"
+                    },
+                    "prettyFormat": "(31) 6-24-66-08-24"
+                },
+                "5": {
+                    "name": "emailAddress",
+                    "order": "3",
+                    "text": "Email Address",
+                    "type": "control_email",
+                    "answer": "Hamzataha1101@outlook.com"
+                },
+                "6": {
+                    "name": "address",
+                    "order": "4",
+                    "sublabels": "{\"cc_firstName\":\"First Name\",\"cc_lastName\":\"Last Name\",\"cc_number\":\"Credit Card Number\",\"cc_ccv\":\"Security Code\",\"cc_exp_month\":\"Expiration Month\",\"cc_exp_year\":\"Expiration Year\",\"addr_line1\":\"Straatnaam\",\"addr_line2\":\"Straatnaam regel 2\",\"city\":\"Stad\",\"state\":\"Staat \\/ Provincie\",\"postal\":\"Postcode\",\"country\":\"Country\"}",
+                    "text": "Address",
+                    "type": "control_address",
+                    "answer": {
+                        "addr_line1": "vergilluisstraat",
+                        "addr_line2": "",
+                        "city": "Rotterdam",
+                        "state": "",
+                        "postal": "3076 XH"
+                    },
+                    "prettyFormat": "Straatnaam: vergilluisstraat<br>Stad: Rotterdam<br>Postcode: 3076 XH<br>"
+                },
+                "14": {
+                    "name": "submit",
+                    "order": "8",
+                    "text": "Continue",
+                    "type": "control_button"
+                },
+                "16": {
+                    "name": "datum",
+                    "order": "5",
+                    "sublabels": "{\"day\":\"Dag\",\"month\":\"Maand\",\"year\":\"Jaar\",\"last\":\"Achternaam\",\"hour\":\"Uur\",\"minutes\":\"Minuten\",\"litemode\":\"Datum\"}",
+                    "text": "Datum",
+                    "timeFormat": "AM/PM",
+                    "type": "control_datetime",
+                    "answer": {
+                        "month": "11",
+                        "day": "11",
+                        "year": "1111",
+                        "datetime": "1111-11-11 00:00:00"
+                    },
+                    "prettyFormat": "11-11-1111"
+                },
+                "17": {
+                    "name": "afspraak",
+                    "order": "6",
+                    "text": "Afspraak",
+                    "timeFormat": "AM/PM",
+                    "type": "control_appointment",
+                    "answer": {
+                        "date": "2025-04-10 07:45",
+                        "duration": "45",
+                        "timezone": "Europe/Amsterdam (GMT+02:00)"
+                    },
+                    "prettyFormat": "Thursday, Apr 10, 2025 07:45-08:30"
+                },
+                "18": {
+                    "name": "handtekening",
+                    "order": "7",
+                    "selectedField": "528c8b8186659c5616000004",
+                    "text": "Handtekening",
+                    "type": "control_signature",
+                    "answer": "https://eu.jotform.com/uploads/hamzataha535/250933582270356/6200123739865863197/6200123739865863197_signature_18.png"
+                }
+            }
+        },
+        {
+            "id": "6198530249868191554",
+            "form_id": "250933582270356",
+            "ip": "95.99.106.89",
+            "created_at": "2025-04-07 12:37:04",
+            "status": "ACTIVE",
+            "new": "1",
+            "flag": "0",
+            "notes": "",
+            "updated_at": null,
+            "answers": {
+                "3": {
+                    "name": "fullName",
+                    "order": "1",
+                    "sublabels": "{\"prefix\":\"Prefix\",\"first\":\"Voornaam\",\"middle\":\"Middle Name\",\"last\":\"Achternaam\",\"suffix\":\"Suffix\"}",
+                    "text": "Gegevens",
+                    "type": "control_fullname",
+                    "answer": {
+                        "first": "ali",
+                        "last": "shwani"
+                    },
+                    "prettyFormat": "ali shwani"
+                },
+                "4": {
+                    "countryCode": "No",
+                    "inputMask": "enable",
+                    "inputMaskValue": "(##) #-##-##-##-##",
+                    "name": "telefoonnummer",
+                    "order": "2",
+                    "sublabels": "{\"country\":\"Country Code\",\"area\":\"Area Code\",\"phone\":\"Phone Number\",\"full\":\"Phone Number\",\"masked\":\"Voer een geldig telefoonnummer in.\"}",
+                    "text": "Telefoonnummer ",
+                    "type": "control_phone",
+                    "answer": {
+                        "full": "(06) 1-12-12-33-44"
+                    },
+                    "prettyFormat": "(06) 1-12-12-33-44"
+                },
+                "5": {
+                    "name": "emailAddress",
+                    "order": "3",
+                    "text": "Email Address",
+                    "type": "control_email",
+                    "answer": "hamza123@outlook.com"
+                },
+                "6": {
+                    "name": "address",
+                    "order": "4",
+                    "sublabels": "{\"cc_firstName\":\"First Name\",\"cc_lastName\":\"Last Name\",\"cc_number\":\"Credit Card Number\",\"cc_ccv\":\"Security Code\",\"cc_exp_month\":\"Expiration Month\",\"cc_exp_year\":\"Expiration Year\",\"addr_line1\":\"Straatnaam\",\"addr_line2\":\"Straatnaam regel 2\",\"city\":\"Stad\",\"state\":\"Staat \\/ Provincie\",\"postal\":\"Postcode\",\"country\":\"Country\"}",
+                    "text": "Address",
+                    "type": "control_address",
+                    "answer": {
+                        "addr_line1": "vergilluisstraat",
+                        "addr_line2": "",
+                        "city": "Rotterdam",
+                        "state": "",
+                        "postal": "3076 XH"
+                    },
+                    "prettyFormat": "Straatnaam: vergilluisstraat<br>Stad: Rotterdam<br>Postcode: 3076 XH<br>"
+                },
+                "14": {
+                    "name": "submit",
+                    "order": "8",
+                    "text": "Continue",
+                    "type": "control_button"
+                },
+                "16": {
+                    "name": "datum",
+                    "order": "5",
+                    "sublabels": "{\"day\":\"Dag\",\"month\":\"Maand\",\"year\":\"Jaar\",\"last\":\"Achternaam\",\"hour\":\"Uur\",\"minutes\":\"Minuten\",\"litemode\":\"Datum\"}",
+                    "text": "Datum",
+                    "timeFormat": "AM/PM",
+                    "type": "control_datetime",
+                    "answer": {
+                        "month": "11",
+                        "day": "22",
+                        "year": "1433",
+                        "datetime": "1433-11-22 00:00:00"
+                    },
+                    "prettyFormat": "11-22-1433"
+                },
+                "17": {
+                    "name": "afspraak",
+                    "order": "6",
+                    "text": "Afspraak",
+                    "timeFormat": "AM/PM",
+                    "type": "control_appointment",
+                    "answer": {
+                        "date": "2025-04-08 10:00",
+                        "duration": "45",
+                        "timezone": "Europe/Amsterdam (GMT+02:00)"
+                    },
+                    "prettyFormat": "Tuesday, Apr 08, 2025 10:00-10:45"
+                },
+                "18": {
+                    "name": "handtekening",
+                    "order": "7",
+                    "selectedField": "528c8b8186659c5616000004",
+                    "text": "Handtekening",
+                    "type": "control_signature",
+                    "answer": "https://eu.jotform.com/uploads/hamzataha535/250933582270356/6198530249868191554/6198530249868191554_signature_18.png"
+                }
+            }
+        },
+        {
+            "id": "6195922909862614417",
+            "form_id": "250933582270356",
+            "ip": "95.99.106.89",
+            "created_at": "2025-04-04 12:11:30",
+            "status": "ACTIVE",
+            "new": "0",
+            "flag": "0",
+            "notes": "",
+            "updated_at": null,
+            "answers": {
+                "3": {
+                    "name": "fullName",
+                    "order": "1",
+                    "sublabels": "{\"prefix\":\"Prefix\",\"first\":\"Voornaam\",\"middle\":\"Middle Name\",\"last\":\"Achternaam\",\"suffix\":\"Suffix\"}",
+                    "text": "Gegevens",
+                    "type": "control_fullname",
+                    "answer": {
+                        "first": "Mohamad",
+                        "last": "Taha"
+                    },
+                    "prettyFormat": "Mohamad Taha"
+                },
+                "4": {
+                    "countryCode": "No",
+                    "inputMask": "enable",
+                    "inputMaskValue": "(##) #-##-##-##-##",
+                    "name": "telefoonnummer",
+                    "order": "2",
+                    "sublabels": "{\"country\":\"Country Code\",\"area\":\"Area Code\",\"phone\":\"Phone Number\",\"full\":\"Phone Number\",\"masked\":\"Voer een geldig telefoonnummer in.\"}",
+                    "text": "Telefoonnummer ",
+                    "type": "control_phone",
+                    "answer": {
+                        "full": "(31) 6-34-13-41-67"
+                    },
+                    "prettyFormat": "(31) 6-34-13-41-67"
+                },
+                "5": {
+                    "name": "emailAddress",
+                    "order": "3",
+                    "text": "Email Address",
+                    "type": "control_email",
+                    "answer": "mosahataha@hotmail.com"
+                },
+                "6": {
+                    "name": "address",
+                    "order": "4",
+                    "sublabels": "{\"cc_firstName\":\"First Name\",\"cc_lastName\":\"Last Name\",\"cc_number\":\"Credit Card Number\",\"cc_ccv\":\"Security Code\",\"cc_exp_month\":\"Expiration Month\",\"cc_exp_year\":\"Expiration Year\",\"addr_line1\":\"Straatnaam\",\"addr_line2\":\"Straatnaam regel 2\",\"city\":\"Stad\",\"state\":\"Staat \\/ Provincie\",\"postal\":\"Postcode\",\"country\":\"Country\"}",
+                    "text": "Address",
+                    "type": "control_address",
+                    "answer": {
+                        "addr_line1": "vergilluisstraat",
+                        "addr_line2": "",
+                        "city": "Rotterdam",
+                        "state": "Zuid-Holland",
+                        "postal": "3076 XH"
+                    },
+                    "prettyFormat": "Straatnaam: vergilluisstraat<br>Stad: Rotterdam<br>Staat / Provincie: Zuid-Holland<br>Postcode: 3076 XH<br>"
+                },
+                "14": {
+                    "name": "submit",
+                    "order": "8",
+                    "text": "Continue",
+                    "type": "control_button"
+                },
+                "16": {
+                    "name": "datum",
+                    "order": "5",
+                    "sublabels": "{\"day\":\"Dag\",\"month\":\"Maand\",\"year\":\"Jaar\",\"last\":\"Achternaam\",\"hour\":\"Uur\",\"minutes\":\"Minuten\",\"litemode\":\"Datum\"}",
+                    "text": "Datum",
+                    "timeFormat": "AM/PM",
+                    "type": "control_datetime",
+                    "answer": {
+                        "month": "02",
+                        "day": "12",
+                        "year": "1234",
+                        "datetime": "1234-02-12 00:00:00"
+                    },
+                    "prettyFormat": "02-12-1234"
+                },
+                "17": {
+                    "name": "afspraak",
+                    "order": "6",
+                    "text": "Afspraak",
+                    "timeFormat": "AM/PM",
+                    "type": "control_appointment",
+                    "answer": {
+                        "date": "2025-04-07 08:30",
+                        "duration": "45",
+                        "timezone": "Europe/Amsterdam (GMT+02:00)"
+                    },
+                    "prettyFormat": "Monday, Apr 07, 2025 08:30-09:15"
+                },
+                "18": {
+                    "name": "handtekening",
+                    "order": "7",
+                    "selectedField": "528c8b8186659c5616000004",
+                    "text": "Handtekening",
+                    "type": "control_signature",
+                    "answer": "https://eu.jotform.com/uploads/hamzataha535/250933582270356/6195922909862614417/6195922909862614417_signature_18.png"
+                }
+            }
+        },
+        {
+            "id": "6195783689861244054",
+            "form_id": "250933582270356",
+            "ip": "95.99.106.89",
+            "created_at": "2025-04-04 08:19:28",
+            "status": "ACTIVE",
+            "new": "0",
+            "flag": "0",
+            "notes": "",
+            "updated_at": null,
+            "answers": {
+                "3": {
+                    "name": "fullName",
+                    "order": "1",
+                    "sublabels": "{\"prefix\":\"Prefix\",\"first\":\"Voornaam\",\"middle\":\"Middle Name\",\"last\":\"Achternaam\",\"suffix\":\"Suffix\"}",
+                    "text": "Gegevens",
+                    "type": "control_fullname",
+                    "answer": {
+                        "first": "Hamza",
+                        "last": "Taha"
+                    },
+                    "prettyFormat": "Hamza Taha"
+                },
+                "4": {
+                    "countryCode": "No",
+                    "inputMask": "enable",
+                    "inputMaskValue": "(##) #-##-##-##-##",
+                    "name": "telefoonnummer",
+                    "order": "2",
+                    "sublabels": "{\"country\":\"Country Code\",\"area\":\"Area Code\",\"phone\":\"Phone Number\",\"full\":\"Phone Number\",\"masked\":\"Voer een geldig telefoonnummer in.\"}",
+                    "text": "Telefoonnummer ",
+                    "type": "control_phone",
+                    "answer": {
+                        "full": "(31) 6-41-44-98-47"
+                    },
+                    "prettyFormat": "(31) 6-41-44-98-47"
+                },
+                "5": {
+                    "name": "emailAddress",
+                    "order": "3",
+                    "text": "Email Address",
+                    "type": "control_email",
+                    "answer": "Hamzataha1101@outlook.com"
+                },
+                "6": {
+                    "name": "address",
+                    "order": "4",
+                    "sublabels": "{\"cc_firstName\":\"First Name\",\"cc_lastName\":\"Last Name\",\"cc_number\":\"Credit Card Number\",\"cc_ccv\":\"Security Code\",\"cc_exp_month\":\"Expiration Month\",\"cc_exp_year\":\"Expiration Year\",\"addr_line1\":\"Straatnaam\",\"addr_line2\":\"Straatnaam regel 2\",\"city\":\"Stad\",\"state\":\"Staat \\/ Provincie\",\"postal\":\"Postcode\",\"country\":\"Country\"}",
+                    "text": "Address",
+                    "type": "control_address",
+                    "answer": {
+                        "addr_line1": "vergilluisstraat",
+                        "addr_line2": "",
+                        "city": "Rotterdam",
+                        "state": "Zuid-Holland",
+                        "postal": "3076 XH"
+                    },
+                    "prettyFormat": "Straatnaam: vergilluisstraat<br>Stad: Rotterdam<br>Staat / Provincie: Zuid-Holland<br>Postcode: 3076 XH<br>"
+                },
+                "14": {
+                    "name": "submit",
+                    "order": "8",
+                    "text": "Continue",
+                    "type": "control_button"
+                },
+                "16": {
+                    "name": "datum",
+                    "order": "5",
+                    "sublabels": "{\"day\":\"Dag\",\"month\":\"Maand\",\"year\":\"Jaar\",\"last\":\"Achternaam\",\"hour\":\"Uur\",\"minutes\":\"Minuten\",\"litemode\":\"Datum\"}",
+                    "text": "Datum",
+                    "timeFormat": "AM/PM",
+                    "type": "control_datetime",
+                    "answer": {
+                        "month": "11",
+                        "day": "01",
+                        "year": "2006",
+                        "datetime": "2006-11-01 00:00:00"
+                    },
+                    "prettyFormat": "11-01-2006"
+                },
+                "17": {
+                    "name": "afspraak",
+                    "order": "6",
+                    "text": "Afspraak",
+                    "timeFormat": "AM/PM",
+                    "type": "control_appointment",
+                    "answer": {
+                        "date": "2025-04-07 03:00",
+                        "duration": "45",
+                        "timezone": "Europe/Amsterdam (GMT+02:00)"
+                    },
+                    "prettyFormat": "Monday, Apr 07, 2025 03:00-03:45"
+                },
+                "18": {
+                    "name": "handtekening",
+                    "order": "7",
+                    "selectedField": "528c8b8186659c5616000004",
+                    "text": "Handtekening",
+                    "type": "control_signature",
+                    "answer": "https://eu.jotform.com/uploads/hamzataha535/250933582270356/6195783689861244054/6195783689861244054_signature_18.png"
+                }
+            }
+        }
+    ],
+    "duration": "134.93ms",
+    "info": null,
+    "resultSet": {
+        "offset": 0,
+        "limit": 20,
+        "count": 4
+    },
+    "limit-left": 989
+}
